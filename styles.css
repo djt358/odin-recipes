@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* types */
+ h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+ }
+
+ h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+ }
+
+ a {
+    text-decoration: none;
+    color: #540a0a;
+    font-weight: 500;
+ }
+
+/* classes */
+
+.home-button {
+    background-color: #540a0a;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ids */
